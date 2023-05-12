@@ -1,12 +1,14 @@
 import React from 'react'
 import NavbarCenter from './Navbar-Center'
+import ChatBox from './ChatBox'
+import './BodyCenter.style.css';
 
 function BodyCenter() {
   return (
     <>
     <NavbarCenter/>
-    <div style={{backgroundColor: '#F3F6F3', height: '100vh'}}>
-
+    <div id='body-center' style={{backgroundColor: '#F3F6F3'}}>
+      <ChatBox/>
     </div>
     </>
   )

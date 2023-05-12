@@ -120,7 +120,6 @@ function NavbarCenter() {
       <AppBar id="navbar-center" position="static">
         <Toolbar>
           <p
-            noWrap
             style={{  color: 'black' }}
           >
             Hung Nguyen
